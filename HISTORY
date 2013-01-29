@@ -1,4 +1,7 @@
-00.00.00
+29.01.12
+- version 2.0.6
+- moved development from GitHub to bitbucket
+- renamed package from Polygon to Polygon2 to avoid conflicts with Polygon3
 - getting numpy include path automatically in setup.py
 - fixed https://github.com/jraedler/Polygon2/issues/2
 
