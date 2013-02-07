@@ -120,7 +120,7 @@ staticforward PyNumberMethods Polygon_NumberMethods;
 staticforward PySequenceMethods Polygon_SequenceMethods;
 
 /* check if object o is a Polygon */
-#define Polygon_Check(o) ((o)->ob_type == &Polygon_Type)
+#define Polygon_Check(o) (PyObject_TypeCheck(o, &Polygon_Type))
 
 
 /* gets (cached) boundingbox or calculates and caches */
