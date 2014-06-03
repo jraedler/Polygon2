@@ -2,6 +2,8 @@
 - fixed some methods to work with instances of subclasses
 - fixed a bug in the SVG export (rgb), thanks to Diederik van Lierop
 - fixed a bug with exceptions in the initialisation, thanks to Diederik van Lierop
+- fixed a bug in gpc: replace on DBL_EPSILON with variable GPC_EPSILON, thanks to Peter Vavaroutsos
+- code changes to work with future versions of numpy (#define NPY_NO_DEPRECATED_API NPY_1_8_API_VERSION)
 
 2013-01-29
 - version 2.0.6
