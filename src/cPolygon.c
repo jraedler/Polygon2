@@ -77,7 +77,7 @@ Operations on polygons:\n\
 #define INDEF INT_MAX
 
 #ifndef POLY_VERSION
-#define POLY_VERSION "2.0.6"
+#define POLY_VERSION "2.0.7"
 #endif
 
 #ifndef PyMODINIT_FUNC
