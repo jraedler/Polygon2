@@ -37,6 +37,7 @@ if platform == 'win32':
     mac.append(('SYSTEM_WIN32', 1))
 
 longdesc = """THIS VERSION WORKS WITH PYTHON-2.x ONLY!
+IT IS THE LAST VERSION OF THE PYTHON-2 BRANCH, THERE WILL BE NO MORE UPDATES!
 
 Polygon is a python package that handles polygonal shapes in 2D. It contains 
 Python bindings for gpc, the excellent General Polygon Clipping Library by 
@@ -66,7 +67,7 @@ wish to use this software in commercial projects!
 
 args = { 
     'name'            : "Polygon2",
-    'version'         : "2.0.7",
+    'version'         : "2.0.8",
     'description'     : "Polygon2 is a Python-2 package that handles polygonal shapes in 2D",
     'long_description': longdesc,
     'license'         : "LGPL for Polygon, other for gpc",
@@ -75,7 +76,6 @@ args = {
     'maintainer'      : "Joerg Raedler",
     'maintainer_email': "joerg@j-raedler.de",
     'url'             : "http://www.j-raedler.de/projects/polygon",
-    'download_url'    : "https://bitbucket.org/jraedler/polygon2/downloads",
     'classifiers'     : ['Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Intended Audience :: Science/Research', 
